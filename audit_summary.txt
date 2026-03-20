@@ -1,0 +1,24 @@
+Financial Security Data Quality Monitor - Audit Summary
+==========================================================
+
+Previous day record count: 9
+Current day record count: 11
+Total flagged records: 12
+
+Issue counts by category:
+- DUPLICATE_RECORD: 2
+- UNEXPECTED_ATTRIBUTE_CHANGE: 2
+- DATE_LOGIC_ERROR: 1
+- FUTURE_ISSUE_DATE: 1
+- MISSING_FROM_CURRENT_FEED: 1
+- INVALID_ASSET_TYPE: 1
+- MISSING_REQUIRED_FIELD: 1
+- MISSING_TICKER: 1
+- NEGATIVE_PRICE: 1
+- PRICE_SPIKE: 1
+
+Top priority review items:
+- NEGATIVE_PRICE: 1
+- DATE_LOGIC_ERROR: 1
+- MISSING_FROM_CURRENT_FEED: 1
+- PRICE_SPIKE: 1

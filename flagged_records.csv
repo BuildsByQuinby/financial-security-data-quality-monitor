@@ -1,0 +1,13 @@
+ticker,cusip,security_name,asset_type,sector,exchange,currency,price,issue_date,maturity_date,status,last_updated,previous_price,percent_change,issue_type,issue_details,sector_previous,asset_type_previous
+BND001,123456AA1,Corporate Bond A,Bond,Corporate Debt,OTC,USD,99.1,2020-01-15,2019-01-15,Active,2026-03-19,,,DATE_LOGIC_ERROR,Maturity date is earlier than issue date.,,
+AAPL,037833100,Apple Inc.,Equity,Technology,NASDAQ,USD,183.11,1980-12-12,,Active,2026-03-19,,,DUPLICATE_RECORD,Duplicate ticker + CUSIP combination found.,,
+AAPL,037833100,Apple Inc.,Equity,Technology,NASDAQ,USD,183.11,1980-12-12,,Active,2026-03-19,,,DUPLICATE_RECORD,Duplicate ticker + CUSIP combination found.,,
+MEGA,111111111,Mega Growth Corp.,Equity,Technology,NASDAQ,USD,450.0,2026-12-01,,Active,2026-03-19,,,FUTURE_ISSUE_DATE,Issue date is in the future.,,
+TSLA,88160R101,Tesla Inc.,Equty,Consumer Discretionary,NASDAQ,USD,170.95,2010-06-29,,Active,2026-03-19,,,INVALID_ASSET_TYPE,Asset type is not in the approved value list.,,
+LEGACY1,999999999,Legacy Industrial Corp.,Equity,Industrials,NYSE,USD,45.0,2001-05-10,,Active,2026-03-18,,,MISSING_FROM_CURRENT_FEED,Security existed previously but is missing in the current feed.,,
+ETF100,78462F103,SPDR S&P 500 ETF,ETF,,NYSE Arca,USD,510.88,1993-01-22,,Active,2026-03-19,,,MISSING_REQUIRED_FIELD,One or more required fields are missing.,,
+,222222222,Unnamed Security,Equity,Industrials,NYSE,USD,14.25,2019-05-01,,Active,2026-03-19,,,MISSING_TICKER,Ticker is blank or null.,,
+JPM,46625H100,JPMorgan Chase & Co.,Equity,Financials,NYSE,USD,-198.1,1969-01-01,,Active,2026-03-19,,,NEGATIVE_PRICE,Price is less than zero.,,
+JPM,46625H100,JPMorgan Chase & Co.,Equity,Financials,NYSE,USD,-198.1,1969-01-01,,Active,2026-03-19,198.1,-200.0,PRICE_SPIKE,Absolute price change exceeded 25%.,,
+ETF100,78462F103,SPDR S&P 500 ETF,ETF,,NYSE Arca,USD,510.88,1993-01-22,,Active,2026-03-19,,,UNEXPECTED_ATTRIBUTE_CHANGE,Sector or asset type changed versus the previous day. Review for intentional reference data updates.,Index Fund,ETF
+TSLA,88160R101,Tesla Inc.,Equty,Consumer Discretionary,NASDAQ,USD,170.95,2010-06-29,,Active,2026-03-19,,,UNEXPECTED_ATTRIBUTE_CHANGE,Sector or asset type changed versus the previous day. Review for intentional reference data updates.,Consumer Discretionary,Equity
