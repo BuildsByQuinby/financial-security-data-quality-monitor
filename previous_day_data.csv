@@ -1,0 +1,10 @@
+ticker,cusip,security_name,asset_type,sector,exchange,currency,price,issue_date,maturity_date,status,last_updated
+AAPL,037833100,Apple Inc.,Equity,Technology,NASDAQ,USD,182.52,1980-12-12,,Active,2026-03-18
+MSFT,594918104,Microsoft Corp.,Equity,Technology,NASDAQ,USD,417.88,1986-03-13,,Active,2026-03-18
+TSLA,88160R101,Tesla Inc.,Equity,Consumer Discretionary,NASDAQ,USD,171.22,2010-06-29,,Active,2026-03-18
+JPM,46625H100,JPMorgan Chase & Co.,Equity,Financials,NYSE,USD,198.10,1969-01-01,,Active,2026-03-18
+BND001,123456AA1,Corporate Bond A,Bond,Corporate Debt,OTC,USD,99.75,2020-01-15,2030-01-15,Active,2026-03-18
+ETF100,78462F103,SPDR S&P 500 ETF,ETF,Index Fund,NYSE Arca,USD,510.34,1993-01-22,,Active,2026-03-18
+MUTF01,316071109,Fidelity 500 Index Fund,Mutual Fund,Index Fund,NMFQS,USD,189.22,1988-02-17,,Active,2026-03-18
+PREF01,000000PR1,Preferred Income Security,Preferred Stock,Financials,NYSE,USD,24.90,2018-06-01,,Active,2026-03-18
+LEGACY1,999999999,Legacy Industrial Corp.,Equity,Industrials,NYSE,USD,45.00,2001-05-10,,Active,2026-03-18
